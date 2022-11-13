@@ -1,7 +1,7 @@
 """"
 A singleton class is permitted to create only one instance of the class at a time. This means requesting the class to create further instances
-should only return the already created instance. An example where a singleton instance might be preferred is a database connector
-
+should only return the already created instance. An example where a singleton instance might be preferred is a database connector.
+Singleton is a creational design pattern.
 """
 class Person(object):
     def __new__(cls, name):
